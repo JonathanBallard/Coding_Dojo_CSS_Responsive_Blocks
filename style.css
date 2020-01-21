@@ -1,0 +1,161 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+#green_bar {
+    background-color: green;
+    margin: 10px;
+    display: block;
+}
+
+#blue_bar {
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+}
+
+#red_bar {
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+}
+
+.yellow_box {
+    background-color: yellow;
+    margin: 10px;
+    display: inline-block;
+}
+
+#purple_box {
+    background-color: purple;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 480px){
+    #green_bar {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #blue_bar {
+        display:none;
+    }
+    
+    #red_bar {
+        width: 95%;
+        height: 870px;
+ 
+    }
+    
+    .yellow_box {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #purple_box {
+        width: 95%;
+        height: 150px;
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width: 481px){
+    #green_bar {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #blue_bar {
+        display:none;
+        width: 22%;
+        height: 400px;
+        vertical-align: top;
+    }
+    
+    #red_bar {
+        width: 75%;
+        height: 870px;
+ 
+    }
+    
+    .yellow_box {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #purple_box {
+        width: 95%;
+        height: 150px;
+        margin-top: 25px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #green_bar {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #blue_bar {
+        display:inline-block;
+        width: 20%;
+        height: 400px;
+        vertical-align: top;
+    }
+    
+    #red_bar {
+        width: 75%;
+        height: 870px;
+ 
+    }
+    
+    .yellow_box {
+        width: 95%;
+        height: 200px;
+    }
+    
+    #purple_box {
+        width: 95%;
+        height: 150px;
+        margin-top: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
